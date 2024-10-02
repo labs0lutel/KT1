@@ -4,60 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ingams</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
     <header>
-        <h1>Добро пожаловать!</h1>
         <nav>
             <ul>
                 <li><a href="#home">Главная</a></li>
                 <li><a href="#games">Игры</a></li>
                 <li><a href="#about">О нас</a></li>
-                <li><a href="#contact">КОнтакт</a></li>
+                <li><a href="#contact">Контакт</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <article id="feature-game">
-            <h2>Рекомендуемая игра: Red Dead Redemption 2</h2>
-            <figure>
-                <img src="#" alt="">
-                <figcaption>
-                    Обложка игры 'Red Dead Redemption 2'
-                </figcaption>
-            </figure>
-            <p>Игра RDR2, получившая более 175 наград и 250 высших оценок от игровых изданий, – это грандиозная история о судьбе бандита Артура Моргана и банды Ван дер Линде, бегущих от закона через всю Америку на заре современной эпохи. Включает бесплатный доступ к совместно...</p>
-            <aside>
-                <h3>Доп. информация:</h3>
-                <p>Жанр: Открытый мир Глубокий сюжет Вестерн Мясо <br>Возростное ограничение: 18+</p>
-            </aside>
-        </article>
+        <section id="featured-slider">
+            <h2>ПОПУЛЯРНОЕ И РЕКОМЕНДУЕМОЕ</h2>
+          
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                
+                <div class="swiper-slide slider-item">
+                  <figure>
+                    <img src="./img/rdr2.jpg" alt="Red Dead Redemption 2">
+                  </figure>
+                  <div class="slider-content">
+                    <h3>Red Dead Redemption 2</h3>
+                    <p>
+                      Игра RDR2, получившая более 175 наград и 250 высших оценок от игровых изданий, – это грандиозная история о судьбе бандита Артура Моргана...
+                    </p>
+                    <aside>
+                      <div class="tags">
+                        <span>Открытый мир</span>
+                        <span>Глубокий сюжет</span>
+                        <span>Вестерн</span>
+                        <span>Мясо</span>
+                      </div>
+                      <h3>$59.99</h3>
+                    </aside>
+                  </div>
+                </div>
+          
+               
+                <div class="swiper-slide slider-item">
+                  <figure>
+                    <img src="./img/gta5.jpg" alt="GTA V">
+                  </figure>
+                  <div class="slider-content">
+                    <h3>Grand Theft Auto V</h3>
+                    <p>
+                      Откройте для себя жизнь в мире криминала и роскоши в Лос-Сантосе, полном приключений и миссий...
+                    </p>
+                    <aside>
+                      <div class="tags">
+                        <span>Открытый мир</span>
+                        <span>Многопользовательская игра</span>
+                        <span>Экшн</span>
+                      </div>
+                      <h3>$29.99</h3>
+                    </aside>
+                  </div>
+                </div>
+          
+                
+                <div class="swiper-slide slider-item">
+                  <figure>
+                    <img src="./img/rust.jpg" alt="Rust">
+                  </figure>
+                  <div class="slider-content">
+                    <h3>Rust</h3>
+                    <p>
+                      Выживайте в суровом мире Rust, где вам предстоит строить укрытия, добывать ресурсы и отбиваться от врагов...
+                    </p>
+                    <aside>
+                      <div class="tags">
+                        <span>Выживание</span>
+                        <span>Песочница</span>
+                        <span>Мультиплеер</span>
+                      </div>
+                      <h3>$39.99</h3>
+                    </aside>
+                  </div>
+                </div>
+          
+                
+                <div class="swiper-slide slider-item">
+                  <figure>
+                    <img src="./img/fc25.jpg" alt="FC 25">
+                  </figure>
+                  <div class="slider-content">
+                    <h3>FC 25</h3>
+                    <p>
+                      Окунитесь в захватывающий мир футбола с FC 25, который предлагает реалистичную графику, динамичные матчи...
+                    </p>
+                    <aside>
+                      <div class="tags">
+                        <span>Футбол</span>
+                        <span>Мультиплеер</span>
+                        <span>Спортивная игра</span>
+                      </div>
+                      <h3>$49.99</h3>
+                    </aside>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </section>
+          
+        
         <section id="home">
             <h2>Новинки</h2>
 
             <div class="game-card">
-                <img src="#" alt="#">
+                <img src="./img/warham.jpg" alt="#">
                 <h3>Warhammer 40,000: Space Marine 2</h3>
                 <p>Обретите сверхчеловеческую мощь космодесантника. Пустите в ход смертоносные навыки и разрушительное оружие, чтобы истребить безжалостных тиранидов. Защитите Империум в ярких одиночных боях или многопользовательских режимах с видом от...</p>
                 <p>Цена: $59.99</p>
                 <button>Купить</button>
             </div>
             <div class="game-card">
-                <img src="#" alt="#">
+                <img src="./img/wukong.jpg" alt="#">
                 <h3>Black Myth: Wukong</h3>
                 <p>Black Myth: Wukong — ролевой боевик по мотивам китайской мифологии. Став Избранным, вы отправитесь в приключение, полное испытаний и чудес, в котором вам предстоит приподнять завесу тайны над великой легендой.</p>
                 <p>Цена: $59.99</p>
                 <button>Купить</button>
             </div>
             <div class="game-card">
-                <img src="#" alt="#">
+                <img src="./img/nba.jpg" alt="#">
                 <h3>NBA 2K25</h3>
                 <p>Управляйте каждой площадкой с аутентичностью и реализмом благодаря технологии ProPLAY™, которая дает вам полный контроль над вашей игрой в NBA 2K25. Создайте свое наследие в MyCAREER, MyTEAM, MyNBA и The W. Проявите себя со множеством вариантов настройки и...</p>
                 <p>Цена: $69.99</p>
                 <button>Купить</button>
             </div>
             <div class="game-card">
-                <img src="#" alt="#">
+                <img src="./img/zero.jpg" alt="#">
                 <h3>Zero Hour</h3>
                 <p>Zero Hour — это тактический командный онлайн шутер от первого лица с управлением ресурсами. Его события разворачиваются в различных вымышленных локациях с атмосферой Бангладеш, созданных в реалистичных пропорциях, что дарит ощущение настоящего...</p>
                 <p>Цена: $18.99</p>
